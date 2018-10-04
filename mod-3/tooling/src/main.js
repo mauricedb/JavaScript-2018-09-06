@@ -1,4 +1,4 @@
-import { greet } from './utils.js';
+import { greet } from "./utils.js"
 
-greet();
-greet('Maurice');
+greet()
+greet("Maurice de Beijer")
