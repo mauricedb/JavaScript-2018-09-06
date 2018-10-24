@@ -1,0 +1,16 @@
+{
+  "name": "mod-4",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "tsc": "tsc",
+    "start": "live-server  --ignorePattern=.ts ./src"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.0"
+  },
+  "dependencies": {
+    "typescript": "^3.1.3"
+  }
+}
