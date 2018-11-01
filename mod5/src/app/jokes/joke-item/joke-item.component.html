@@ -1,0 +1,7 @@
+<div class="joke">
+  {{joke.joke}}
+</div>
+<div>
+  <input type="text" [(ngModel)]="joke.joke" />
+</div>
+<button (click)="doChange()">Change me</button>

@@ -1,0 +1,17 @@
+<p>
+  jokes-list works!
+</p>
+
+<p>
+  {{greeting.toUpperCase()}}
+</p>
+
+{{ newDate()}}
+
+
+<ul>
+  <li *ngFor="let j of (jokes | async).value">
+    <app-joke-item [joke]="j"></app-joke-item>
+
+  </li>
+</ul>
