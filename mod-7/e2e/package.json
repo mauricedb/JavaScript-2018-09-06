@@ -2,5 +2,12 @@
   "name": "e2e",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "nightwatch"
+  },
+  "devDependencies": {
+    "chromedriver": "^2.44.0",
+    "nightwatch": "^0.9.21"
+  }
 }
